@@ -1,0 +1,250 @@
+Build me a complete, single-file HTML landing page for an AI automation agency. This is the most important page of the business — every design and copy decision should drive toward one action: booking a free strategy call.
+
+---
+
+## BRAND & TONE
+- Name: [YOUR AGENCY NAME] (use placeholder "NeuralEdge" if none given)
+- Tone: Confident, direct, premium. Like a McKinsey consultant who builds in Python.
+- No buzzword fluff. No "we leverage cutting-edge synergies."
+- Write like you've seen the problem 100 times and you know exactly how to fix it.
+
+---
+
+## DESIGN SYSTEM (NON-NEGOTIABLE)
+
+**Color palette:**
+- Background: #080808 (near black)
+- Surface: #0f0f0f / #141414
+- Border: rgba(255,255,255,0.06)
+- Primary accent: #00FF94 (electric mint green)
+- Secondary accent: #7B61FF (violet)
+- Text primary: #F5F5F5
+- Text muted: #6B7280
+
+**Typography:**
+- Display/headlines: "Syne" (Google Font) — bold, geometric
+- Body: "DM Sans" (Google Font) — clean, readable
+- Monospace accents: "JetBrains Mono" — for stats, labels, badges
+
+**Visual details:**
+- Subtle radial gradient glow behind hero (accent color, very low opacity ~0.08)
+- Very faint dot-grid or noise texture on background
+- Cards: glassmorphism — background rgba(255,255,255,0.03), border rgba(255,255,255,0.07), backdrop-filter blur(12px)
+- Dividers: thin 1px lines at opacity 0.06
+- CTA button: solid accent green, black text, pill-shaped, slight glow on hover
+- NO stock photos. NO illustrations of people. Use SVG icons, geometric shapes, abstract glows only.
+- Generous white space. Think Linear.app density.
+
+**Animations:**
+- On page load: staggered fade-up for hero elements (CSS keyframes, 0.1s delays)
+- Scroll-triggered fade-in for each section (use IntersectionObserver)
+- Hover states on cards: subtle border brightening + translateY(-2px)
+- CTA button: pulsing glow animation on idle
+
+---
+
+## PAGE SECTIONS (build ALL of these, in order)
+
+### 1. NAVBAR
+- Logo left (text-based, monospace font + green dot accent)
+- Nav links: Services, How It Works, Case Studies, FAQ
+- CTA button right: "Book a Free Call" (accent green)
+- Sticky, with frosted glass blur on scroll
+- Mobile hamburger menu
+
+---
+
+### 2. HERO SECTION
+**Headline (pain-focused, not tool-focused):**
+"Your Team Is Drowning in Repetitive Work. We Automate It — In Weeks, Not Months."
+
+**Sub-headline:**
+"We build custom AI systems that eliminate manual work, qualify leads 24/7, and scale your operations — without adding headcount."
+
+**CTA:**
+Primary button: "Book Your Free Strategy Call →"
+Secondary link: "See How It Works ↓"
+
+**Trust signals row beneath CTA:**
+- ✦ 10+ Automations Delivered
+- ✦ 48hr Turnaround on Scoping
+- ✦ Zero Fluff. 100% Custom Builds.
+
+**Hero visual:**
+Create an abstract animated SVG or CSS visualization — something that suggests "systems connecting / data flowing" — NO stock imagery. Could be: animated node graph, pulsing grid, orbiting rings. Use accent colors.
+
+---
+
+### 3. PROBLEM SECTION
+Headline: "Sound Familiar?"
+
+Three pain point cards in a row:
+1. 🔁 "Your team copies data between tools manually. Every. Single. Day."
+2. 📉 "Leads fall through the cracks because follow-up is inconsistent."
+3. 🕐 "You're paying people to do work a $20/month tool could handle — if set up right."
+
+Small text below: "These aren't small inefficiencies. They're compounding every week."
+
+---
+
+### 4. HOW IT WORKS (3 Steps)
+Headline: "From 'We Have a Problem' to 'This Runs Itself' — In 3 Steps"
+
+Step 1 — DISCOVER
+Icon: magnifying glass or radar
+"We map your current workflows, find the highest-leverage bottlenecks, and build a custom automation roadmap. Free. No obligation."
+
+Step 2 — BUILD
+Icon: terminal / gear
+"Our team designs and deploys your AI systems — chatbots, workflows, agents — tailored to your stack. We handle the complexity."
+
+Step 3 — DEPLOY & SUPPORT
+Icon: rocket / shield
+"We go live, monitor performance, and iterate. You get ongoing support and a system that improves over time."
+
+Layout: horizontal timeline on desktop, vertical stack on mobile. Use step numbers in large faint monospace text as background decoration.
+
+---
+
+### 5. SERVICES SECTION
+Headline: "What We Build"
+Sub: "Every system is custom. No templates. No shortcuts."
+
+Display as a 2×3 grid of cards (or 3×2), each with:
+- Icon (SVG)
+- Service name (bold)
+- 2-line description
+- Small "→ Learn more" link (goes nowhere, just UI)
+
+Services:
+1. **AI Chatbots & Customer Support** — "24/7 support agents that resolve queries, qualify leads, and escalate intelligently. Built on your data."
+2. **Lead Generation & Sales Automation** — "Automated outreach, CRM enrichment, and follow-up sequences that never miss a lead."
+3. **Workflow & Operations Automation** — "Connect your tools, eliminate manual handoffs, and let your team focus on high-value work."
+4. **AI Content & Marketing Systems** — "Automated content pipelines, social scheduling, and SEO workflows powered by AI."
+5. **Appointment & Booking Automation** — "Smart scheduling systems that qualify, book, and remind — without human intervention."
+6. **AI Voice Agents** — "Inbound and outbound voice agents that handle calls, book appointments, and capture data automatically."
+7. **Data & Reporting Automation** — "Automated dashboards, reports, and alerts so you always know what's happening — in real time."
+
+---
+
+### 6. TOOLS & PLATFORMS SECTION
+Headline: "Built on the Best Infrastructure"
+Sub: "We don't reinvent the wheel — we wire it together better than anyone."
+
+Two categories displayed as pill/badge grids:
+
+**Automation Platforms:**
+n8n, Make (Integromat), Zapier, Activepieces, Pipedream
+
+**AI & Intelligence Layer:**
+OpenAI, Anthropic Claude, Groq, Perplexity, ElevenLabs, Whisper, LangChain
+
+**CRMs & Business Tools:**
+HubSpot, GoHighLevel, Notion, Airtable, Google Workspace, Slack, Twilio
+
+**Voice & Communication:**
+Bland.ai, Vapi, Retell AI, Twilio Voice
+
+Style: Frosted glass pill badges, monospace font, subtle border. Arranged in wrapping flex rows.
+
+---
+
+### 7. CASE STUDIES / RESULTS SECTION
+Headline: "Results We've Delivered"
+
+3 case study cards:
+
+Card 1:
+Industry: E-commerce
+Problem: "Support team handling 200+ repetitive queries/day"
+Solution: "Deployed AI chatbot trained on product catalog + FAQ"
+Result: "↓ 73% support ticket volume. Response time: instant."
+
+Card 2:
+Industry: Real Estate Agency
+Problem: "Leads from 6 sources, manually entered into CRM"
+Solution: "Built unified lead capture + CRM automation + follow-up sequence"
+Result: "↑ 3x lead response speed. Zero manual data entry."
+
+Card 3:
+Industry: SaaS Company
+Problem: "Monthly reporting took 2 analysts 3 days each"
+Solution: "Automated data pipeline + Notion dashboard"
+Result: "Reports ready in 4 minutes. Analysts freed for strategy."
+
+Card style: Dark, bordered, with a subtle left-accent bar in the primary color. Result metric displayed large in accent color.
+
+---
+
+### 8. CTA SECTION (Mid-page)
+Full-width dark section with glow effect:
+Headline: "Ready to Stop Doing Work That Shouldn't Require Humans?"
+Sub: "Book a free 30-minute call. We'll map out your top automation opportunity — no pitch, no pressure."
+CTA Button: "Book Your Free Strategy Call →"
+Micro-copy below: "Usually responds within 2 hours. No commitment required."
+
+---
+
+### 9. FAQ SECTION
+Headline: "Common Questions"
+
+Accordion-style FAQ (click to expand), minimum 7 questions:
+
+1. How long does it take to build an automation?
+"Most systems are scoped within 48 hours and deployed within 1–3 weeks depending on complexity."
+
+2. Do I need to change my current tools?
+"Rarely. We build around your existing stack. If a tool is costing you money or time, we'll flag it — but we don't force migrations."
+
+3. What if the automation breaks?
+"All builds include a support period. We monitor, debug, and maintain your systems — you're not left holding the bag."
+
+4. How much does it cost?
+"Depends on scope. Most projects start between $1,500–$5,000. We'll give you a clear number after the discovery call."
+
+5. We're not technical — can we still work with you?
+"Yes. You tell us the problem in plain language. We handle everything technical and explain what we've built in simple terms."
+
+6. What industries do you work with?
+"We've worked across e-commerce, SaaS, real estate, agencies, professional services, and more. If you have repetitive workflows, we can help."
+
+7. What makes you different from using freelancers or off-the-shelf tools?
+"Freelancers build once and disappear. Off-the-shelf tools require you to figure it out. We build custom, support it long-term, and iterate."
+
+Style: Clean accordion. Border between items. Smooth CSS transition on expand.
+
+---
+
+### 10. FOOTER
+- Logo + tagline: "Automate the work. Amplify the humans."
+- Navigation links: Services | How It Works | Case Studies | FAQ | Contact
+- Social icons: LinkedIn, Twitter/X (SVG only, no images)
+- Bottom bar: "© 2025 NeuralEdge. All rights reserved." | "Privacy Policy"
+- Subtle top border line
+
+---
+
+## TECHNICAL REQUIREMENTS
+- Single HTML file. All CSS and JS inline.
+- Google Fonts loaded via @import
+- Fully responsive (mobile-first). Breakpoints at 768px and 1024px.
+- IntersectionObserver for scroll-triggered animations
+- Smooth scroll for nav anchor links
+- Accordion FAQ with pure JS (no libraries)
+- NO external JS frameworks. Vanilla HTML/CSS/JS only.
+- All SVG icons inline (no icon libraries, no images)
+- Page load performance: no blocking resources
+- Meta tags included: title, description, og:image placeholder
+
+---
+
+## COPY RULES
+- Never mention specific tool names in hero or problem sections
+- Every headline should reference the CLIENT'S outcome, not OUR capability
+- No sentence longer than 20 words in hero/CTA sections
+- Avoid: "leverage", "cutting-edge", "innovative", "revolutionary", "game-changing"
+- Use: numbers, specifics, timelines, outcomes
+
+---
+
+Build the complete file. Make it feel like it was designed by a senior product designer at a Series A startup. Every pixel should feel intentional.

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\akgir\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--Claude-Landing-page-for-the-AI-automation-agency\\\\1bca1c32-0358-4639-ad35-c371005ada28\\\\tasks\\\\bvlpmq299.output\" -Tail 20)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
