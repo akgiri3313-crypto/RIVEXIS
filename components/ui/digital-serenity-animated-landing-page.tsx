@@ -20,7 +20,7 @@ const DigitalSerenity = () => {
 
   useEffect(() => {
     const animateWords = () => {
-      const wordElements = document.querySelectorAll('.word-animate');
+      const wordElements = document.querySelectorAll<HTMLElement>('.word-animate');
       wordElements.forEach(word => {
         const delay = parseInt(word.getAttribute('data-delay') || '0');
         setTimeout(() => {
