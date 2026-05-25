@@ -5,7 +5,7 @@ import AnimatedBackground from '@/components/ui/animated-background';
 import { GlowCard } from '@/components/ui/spotlight-card';
 import { RainbowButton } from '@/components/ui/rainbow-borders-button';
 
-const BOOKING_URL = 'https://calendly.com'; // Update with your Calendly link when available
+const BOOKING_URL = 'https://calendly.com/akgiri3313/new-meeting';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
