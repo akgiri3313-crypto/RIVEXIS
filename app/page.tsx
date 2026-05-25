@@ -5,8 +5,14 @@ import AnimatedBackground from '@/components/ui/animated-background';
 import { GlowCard } from '@/components/ui/spotlight-card';
 import { RainbowButton } from '@/components/ui/rainbow-borders-button';
 
+const BOOKING_URL = 'https://calendly.com'; // Update with your Calendly link when available
+
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleBookingClick = () => {
+    window.open(BOOKING_URL, '_blank');
+  };
 
   return (
     <div>
@@ -36,7 +42,7 @@ export default function Home() {
               <a href="#how-it-works" className="text-sm text-slate-300 hover:text-blue-400 transition-colors">How It Works</a>
               <a href="#testimonials" className="text-sm text-slate-300 hover:text-blue-400 transition-colors">Testimonials</a>
               <a href="#faq" className="text-sm text-slate-300 hover:text-blue-400 transition-colors">FAQ</a>
-              <RainbowButton>Book a Call</RainbowButton>
+              <RainbowButton onClick={handleBookingClick}>Book a Call</RainbowButton>
             </div>
 
             {/* Mobile Menu Button */}
@@ -60,7 +66,7 @@ export default function Home() {
                 <a href="#how-it-works" className="block text-sm text-slate-300 hover:text-blue-400">How It Works</a>
                 <a href="#testimonials" className="block text-sm text-slate-300 hover:text-blue-400">Testimonials</a>
                 <a href="#faq" className="block text-sm text-slate-300 hover:text-blue-400">FAQ</a>
-                <button className="w-full px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all">
+                <button onClick={handleBookingClick} className="w-full px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all">
                   Book a Call
                 </button>
               </div>
@@ -84,7 +90,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <RainbowButton>Book Your Discovery Call →</RainbowButton>
+              <RainbowButton onClick={handleBookingClick}>Book Your Discovery Call →</RainbowButton>
               <button className="px-8 py-4 border-2 border-blue-600 text-blue-400 hover:bg-blue-600/10 font-semibold rounded-lg transition-all">
                 See How It Works ↓
               </button>
@@ -310,7 +316,7 @@ export default function Home() {
             <GlowCard glowColor="blue" customSize={true} className="w-full text-center p-12">
               <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Ready to Get 10+ Hours Back Every Week?</h2>
               <p className="text-lg text-slate-300 mb-8">Schedule a free 30-minute discovery call with our team. We'll map your biggest automation opportunity and show you the exact ROI.</p>
-              <RainbowButton>Book Your Discovery Call →</RainbowButton>
+              <RainbowButton onClick={handleBookingClick}>Book Your Discovery Call →</RainbowButton>
               <p className="text-sm text-slate-400 mt-4">Usually responds within 2 hours. No credit card required.</p>
             </GlowCard>
           </div>
