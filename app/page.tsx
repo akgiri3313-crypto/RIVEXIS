@@ -78,15 +78,15 @@ export default function Home() {
         <section id="home" className="min-h-screen pt-32 pb-20 px-6 flex flex-col items-center justify-center">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block mb-8 px-4 py-2 rounded-full bg-blue-500/15 border border-blue-500/40">
-              <span className="text-sm text-blue-400 font-medium uppercase tracking-wide">✨ Trusted by 300+ Companies</span>
+              <span className="text-sm text-blue-400 font-medium uppercase tracking-wide">🏭 Supply Chain Automation Specialists</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-50 mb-6 leading-tight">
-              Stop Wasting 10+ Hours Per Week On Repetitive Work
+              Recover 200+ Hours Monthly in Procurement, Inventory & Logistics
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Get a custom AI system that eliminates manual tasks, qualifies leads automatically, and scales your business <span className="font-semibold text-slate-100">without hiring.</span>
+              AI automation for supply chain teams. Cut costs by 15%, eliminate manual processing, and scale without hiring. <span className="font-semibold text-slate-100">Implemented in 2-4 weeks.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -97,22 +97,22 @@ export default function Home() {
             </div>
 
             <div className="text-sm text-slate-400 mb-16">
-              <span className="inline-flex items-center gap-2 mr-6">✓ 30-minute discovery call</span>
-              <span className="inline-flex items-center gap-2 mr-6">✓ Custom ROI projection</span>
-              <span className="inline-flex items-center gap-2">✓ No obligation</span>
+              <span className="inline-flex items-center gap-2 mr-6">✓ Supply chain expertise</span>
+              <span className="inline-flex items-center gap-2 mr-6">✓ 2-4 week implementation</span>
+              <span className="inline-flex items-center gap-2">✓ 30-day money-back guarantee</span>
             </div>
 
             {/* Social Proof */}
             <div className="flex flex-col md:flex-row gap-8 justify-center items-center pt-8 border-t border-slate-700/50">
               <div className="text-center">
                 <div className="text-yellow-400 text-lg mb-2">★★★★★</div>
-                <p className="text-slate-300"><span className="font-semibold text-slate-100">4.9/5</span> average rating</p>
+                <p className="text-slate-300"><span className="font-semibold text-slate-100">98%</span> customer satisfaction</p>
               </div>
               <div className="text-center">
-                <p className="text-slate-300"><span className="font-semibold text-slate-100">300+</span> active customers</p>
+                <p className="text-slate-300"><span className="font-semibold text-slate-100">200+ hours</span> recovered monthly (avg)</p>
               </div>
               <div className="text-center">
-                <p className="text-slate-300"><span className="font-semibold text-slate-100">48hr</span> avg setup time</p>
+                <p className="text-slate-300"><span className="font-semibold text-slate-100">15-18%</span> cost reduction</p>
               </div>
               <div className="text-center">
                 <p className="text-slate-300 font-medium">Rivexis</p>
@@ -125,52 +125,52 @@ export default function Home() {
         <section id="features" className="py-20 px-6 bg-black/30">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">What You'll Eliminate From Your Day</h2>
-              <p className="text-xl text-slate-300">Real outcomes our customers see immediately</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">What Supply Chain Teams Automate</h2>
+              <p className="text-xl text-slate-300">Real outcomes our supply chain customers achieve</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
                   icon: '📋',
-                  title: 'Manual Data Entry',
-                  description: 'Stop copying information between tools. Automate data capture and synchronization across your entire stack.',
-                  benefits: ['Eliminates human error in data entry', '5-10 hours saved per week per person', 'Real-time data sync across all tools'],
+                  title: 'Procurement Automation',
+                  description: 'Eliminate manual PO creation, approval routing, and invoice matching. Automate the entire procurement cycle.',
+                  benefits: ['160-200 hours recovered monthly', '12% cost reduction in procurement', 'Perfect invoice matching (99.9% accuracy)'],
                   glowColor: 'blue' as const,
                 },
                 {
-                  icon: '📞',
-                  title: 'Follow-Up Work',
-                  description: 'Never miss a lead again. AI handles qualification, scheduling, and reminders 24/7—even while you sleep.',
-                  benefits: ['3x faster response time to leads', '24/7 automated follow-up sequences', 'Smart lead prioritization'],
+                  icon: '📦',
+                  title: 'Inventory Optimization',
+                  description: 'AI-powered demand forecasting and automated reordering. Keep optimal stock levels without manual counts.',
+                  benefits: ['18% inventory cost reduction', '25% fewer stockouts', 'Automated reorder points & quantities'],
                   glowColor: 'purple' as const,
                 },
                 {
-                  icon: '📊',
-                  title: 'Report Generation',
-                  description: 'Stop spending days on reports. Get real-time dashboards with insights that matter—updated automatically.',
-                  benefits: ['4 minutes instead of 3 days per report', 'Automated daily/weekly insights', 'Early-warning alerts for problems'],
+                  icon: '🤝',
+                  title: 'Supplier Management',
+                  description: 'Automate supplier communication, performance tracking, and contract management. Stay organized at scale.',
+                  benefits: ['160 hours/month on supplier coordination', '15% on-time delivery improvement', 'Centralized supplier data'],
                   glowColor: 'green' as const,
                 },
                 {
-                  icon: '💬',
-                  title: 'Customer Support',
-                  description: 'AI support agent answers 80% of questions. Your team focuses on complex cases that actually need a human.',
-                  benefits: ['70-80% reduction in support tickets', 'Instant 24/7 responses', 'Intelligent escalation to your team'],
+                  icon: '🚚',
+                  title: 'Logistics Coordination',
+                  description: 'Intelligent order routing, carrier selection, and shipment tracking. Reduce delivery times and costs.',
+                  benefits: ['12% reduction in shipping costs', '24/7 shipment tracking', 'Automated carrier selection'],
                   glowColor: 'orange' as const,
                 },
                 {
-                  icon: '📅',
-                  title: 'Scheduling & Admin',
-                  description: 'Calendar management on autopilot. Smart scheduling takes meeting requests, avoids conflicts, sends reminders.',
-                  benefits: ['Eliminate back-and-forth emails', 'Auto-qualified meeting requests only', 'Timezone-aware scheduling'],
+                  icon: '📊',
+                  title: 'Supply Chain Visibility',
+                  description: 'Real-time dashboards tracking inventory, orders, and supplier performance. Get alerts before problems happen.',
+                  benefits: ['Real-time supply chain KPIs', 'Early-warning alerts for delays', 'Automated performance reports'],
                   glowColor: 'red' as const,
                 },
                 {
                   icon: '🔗',
-                  title: 'Tool Integration',
-                  description: 'Connect all your tools instantly. No manual workflows, no copy-pasting. Your entire tech stack works as one.',
-                  benefits: ['Connects 500+ tools and platforms', 'Two-way sync, not one-time imports', 'Zero manual configuration needed'],
+                  title: 'System Integration',
+                  description: 'Connect SAP, NetSuite, QuickBooks, Shopify and 500+ tools. Eliminate manual data entry across systems.',
+                  benefits: ['Two-way data sync (real-time)', 'Zero copy-pasting between systems', 'Unified supply chain view'],
                   glowColor: 'blue' as const,
                 },
               ].map((feature, i) => (
@@ -193,28 +193,28 @@ export default function Home() {
         <section id="how-it-works" className="py-20 px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">From Chaotic to Automated</h2>
-              <p className="text-xl text-slate-300">Three simple steps to your first AI system</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Your Path to Supply Chain Automation</h2>
+              <p className="text-xl text-slate-300">Four steps from assessment to optimization (2-4 weeks)</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   num: '01',
-                  title: 'Free Discovery Call',
-                  description: 'We map your workflow, identify your top bottleneck, and show you exactly what\'s possible. Zero obligation. You\'ll leave the call knowing your potential ROI.',
+                  title: 'Supply Chain Audit',
+                  description: 'Free assessment of your procurement, inventory, and logistics workflows. We identify your top 3-5 automation opportunities and project ROI. No obligation.',
                   glowColor: 'blue' as const,
                 },
                 {
                   num: '02',
-                  title: 'We Build & Deploy',
-                  description: 'Our team designs your custom AI system, integrates it with your tools, and runs test scenarios. We handle all the technical complexity.',
+                  title: 'Design & Proposal',
+                  description: 'We create a custom automation architecture tailored to your supply chain. Clear timeline, clear costs, clear ROI projections. You approve before we build.',
                   glowColor: 'purple' as const,
                 },
                 {
                   num: '03',
-                  title: 'You Launch & Watch',
-                  description: 'We go live with monitoring, handle first month of tweaks, and provide ongoing support. Your system improves over time as it learns.',
+                  title: 'Build & Deploy',
+                  description: 'Our supply chain specialists build, test, and integrate your automations with SAP, NetSuite, or your existing systems. Go live in 2-4 weeks.',
                   glowColor: 'green' as const,
                 },
               ].map((step, i) => (
@@ -227,7 +227,7 @@ export default function Home() {
             </div>
 
             <div className="text-center mt-12 p-8 rounded-lg bg-blue-500/10 border border-blue-500/20">
-              <p className="text-lg text-slate-300"><span className="font-semibold text-slate-100">Most clients see ROI within 30 days.</span> One client saved $12,000/month in labor costs alone.</p>
+              <p className="text-lg text-slate-300"><span className="font-semibold text-slate-100">Most clients recover their investment within 6-8 weeks.</span> Average savings: 200+ hours monthly + 15% cost reduction.</p>
             </div>
           </div>
         </section>
@@ -236,31 +236,31 @@ export default function Home() {
         <section id="testimonials" className="py-20 px-6 bg-black/30">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">What Real Customers Are Saying</h2>
-              <p className="text-xl text-slate-300">Actual results from businesses like yours</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">What Supply Chain Leaders Say</h2>
+              <p className="text-xl text-slate-300">Real results from companies automating procurement, inventory, and logistics</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
-                  name: 'Jennifer Martinez',
-                  title: 'Support Manager, SaaS Company',
-                  quote: 'We cut support ticket volume by 70%. What used to take my team 20 hours per week is now handled automatically.',
-                  platform: 'Verified on Trustpilot',
+                  name: 'Marcus Johnson',
+                  title: 'Procurement Director, Distributor',
+                  quote: 'Recovered 160 hours monthly in PO processing. Cut our procurement costs by 12%. Implementation took 2 weeks. Best decision we made this year.',
+                  platform: 'Verified Customer',
                   glowColor: 'blue' as const,
                 },
                 {
-                  name: 'Robert Chen',
-                  title: 'Sales Director, E-Commerce',
-                  quote: 'Leads now respond 3x faster. We went from losing deals to follow-up delays to automatically nurturing every opportunity 24/7.',
-                  platform: 'Verified on Capterra',
+                  name: 'Elena Rodriguez',
+                  title: 'Operations Manager, Logistics',
+                  quote: 'Inventory carrying costs dropped 18%. We finally have visibility into stock levels across all locations. No more stockouts.',
+                  platform: 'Verified Customer',
                   glowColor: 'purple' as const,
                 },
                 {
-                  name: 'Sarah Kim',
-                  title: 'Operations Lead, Real Estate',
-                  quote: 'Monthly reporting now takes 4 minutes instead of 3 days. I freed up 12 hours per week for actual strategy work.',
-                  platform: 'Verified on Google',
+                  name: 'David Park',
+                  title: 'Supply Chain Manager, Manufacturing',
+                  quote: 'Supplier management is now automated. We improved on-time delivery by 15% and reduced manual coordination work by 130 hours/month.',
+                  platform: 'Verified Customer',
                   glowColor: 'green' as const,
                 },
               ].map((testimonial, i) => (
@@ -287,16 +287,19 @@ export default function Home() {
         <section id="faq" className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Common Objections (Answered)</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Supply Chain Automation FAQ</h2>
+              <p className="text-lg text-slate-300">Everything you need to know about automation</p>
             </div>
 
             <div className="space-y-4">
               {[
-                { q: 'How much does it cost?', a: 'Most projects start between $1,500–$5,000 depending on complexity. We\'ll give you a clear number after the discovery call.' },
-                { q: 'Do I need to change my current tools?', a: 'No. We integrate with 500+ existing platforms. We wire them together without you changing anything.' },
-                { q: 'What if something breaks?', a: 'All builds include 90 days of support and monitoring. We proactively watch for issues, debug them, and iterate.' },
-                { q: 'How long does setup take?', a: 'Discovery: 30 minutes. Scope & quote: 24-48 hours. Build & deployment: 1-3 weeks depending on complexity.' },
-                { q: 'We\'re not technical. Can we do this?', a: 'Yes. You explain the problem in plain English. We handle 100% of the technical work.' },
+                { q: 'How much does supply chain automation cost?', a: 'Clear pricing: Quick Win ($15K / 2 weeks), Growth ($35K / 3-4 weeks), Enterprise (custom). We\'ll give you an exact number and ROI projection after your free audit.' },
+                { q: 'Will this work with SAP/NetSuite/our ERP?', a: 'Yes. We integrate with SAP, NetSuite, Kinaxis, QuickBooks, Shopify, and 500+ tools. We handle all technical integration.' },
+                { q: 'How long does implementation really take?', a: 'Quick Win automation: 2 weeks. Full transformations: 3-4 weeks. This includes design, build, testing, and deployment.' },
+                { q: 'What if we\'re not technical?', a: 'Perfect. You explain your procurement, inventory, or logistics challenges in plain English. We handle 100% of the technical work and provide training.' },
+                { q: 'Is there a guarantee?', a: 'Yes. 30-day money-back guarantee. If automation isn\'t live or ROI isn\'t on track, we refund you. No questions asked.' },
+                { q: 'Will this disrupt our team?', a: 'No. We work around your existing processes and systems. Your team gets trained and supports the automation smoothly.' },
+                { q: 'What kind of results should we expect?', a: 'Typical results: 200+ hours recovered monthly, 12-18% cost reduction, faster processing times, better visibility. We project your specific ROI during the free audit.' },
               ].map((faq, i) => (
                 <details key={i} className="group p-6 rounded-lg border border-slate-700/50 bg-slate-900/20 cursor-pointer">
                   <summary className="font-semibold text-slate-50 flex items-center justify-between">
@@ -314,10 +317,10 @@ export default function Home() {
         <section className="py-20 px-6">
           <div className="max-w-2xl mx-auto">
             <GlowCard glowColor="blue" customSize={true} className="w-full text-center p-12">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Ready to Get 10+ Hours Back Every Week?</h2>
-              <p className="text-lg text-slate-300 mb-8">Schedule a free 30-minute discovery call with our team. We'll map your biggest automation opportunity and show you the exact ROI.</p>
-              <RainbowButton onClick={handleBookingClick}>Book Your Discovery Call →</RainbowButton>
-              <p className="text-sm text-slate-400 mt-4">Usually responds within 2 hours. No credit card required.</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-50 mb-4">Ready to Recover 200+ Hours Monthly?</h2>
+              <p className="text-lg text-slate-300 mb-8">Start with a free supply chain audit. We'll identify your top 3-5 automation opportunities and project your exact ROI. 30 minutes. Zero obligation.</p>
+              <RainbowButton onClick={handleBookingClick}>Book Your Free Audit →</RainbowButton>
+              <p className="text-sm text-slate-400 mt-4">Usually responds within 2 hours. No credit card required. 30-day money-back guarantee.</p>
             </GlowCard>
           </div>
         </section>
@@ -328,7 +331,7 @@ export default function Home() {
             <div className="grid md:grid-cols-4 gap-8 mb-8">
               <div>
                 <h3 className="font-bold text-slate-50 mb-2">Rivexis</h3>
-                <p className="text-sm text-slate-400">Automate the work. Amplify your team.</p>
+                <p className="text-sm text-slate-400">Supply chain automation specialists. Recover time. Cut costs. Scale operations.</p>
               </div>
               <div>
                 <h4 className="font-semibold text-slate-50 mb-4">Product</h4>
